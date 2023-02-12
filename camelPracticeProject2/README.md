@@ -1,7 +1,3 @@
-# restCamelUsecaseRepo
-restCamelUsecaseRepo
-
-
 Case Study: Rest APIs interacting with RabbitMQ using Apache Camel and some File operations 
 
 This Project integrates SpringBoot-REST, Apache Camel and Rabbit-MQ to create a service which can process different request types, publish them as messages to Rabbit-MQ Queues, and log then in /target/output folder in fomr of yaml files. Exceptions are treated as Deadletters and they too, are treated in the above-mentioned fashion.  
